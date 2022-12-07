@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=League+Spartan);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat);
+
+:root {
+  --lightest-green: #dbeadd;
+  --light-green: #8dba96;
+  --mid-green: #599164;
+  --dark-green: #364f3a;
+  --darkest-green: #1e2a20;
+}
+
+.App {
+  font-family: 'League Spartan', 'Montserrat', 'arial', 'sans-serif';
+  background-color: var(--lightest-green);
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  background-image: url('../public/background.png');
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  height: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 6em;
+  font-weight: bolder;
+  /* margin-bottom: 100px; */
+  color: var(--darkest-green);
+}
+
+.HomeButton {
+  color: var(--darkest-green);
+  font-size: 0.7em;
+  margin: 10px;
+}
+
+h1 {
+  color: var(--darkest-green);
+  font-size: 3.5em;
+  text-align: center;
+}
+
+h2 {
+  color: var(--darkest-green);
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.3em;
+  font-weight: 600;
+  font-family: 'Montserrat'
+}
